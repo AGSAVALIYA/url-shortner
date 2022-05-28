@@ -1,5 +1,13 @@
-.App {
+body{
+  background-color: #003399;
   text-align: center;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
 }
 
 .App-logo {
@@ -11,6 +19,14 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.main-box {
+  text-align: center;
+  width: 500px;
+  background-color: #33ccffa4;
+  border-radius: 10px;
+  color: aliceblue;
 }
 
 .App-header {
