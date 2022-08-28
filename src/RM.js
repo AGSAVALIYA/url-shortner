@@ -5,8 +5,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import App from "./App";
-import Redirect from "./Redirect";
+import App from "./Components/App";
+import Redirect from "./Components/Redirect";
 const RM = () => {
     //fetches paths form api
     const [paths, setPaths] = useState([]);

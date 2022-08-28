@@ -16,7 +16,7 @@ const Redirect = (url) => {
     useEffect(() => {
         setTimeout(() => {
             window.location.href = link;
-        }, 2500);
+        }, 1500);
     }, []);
     return (
         <div style={style}>
